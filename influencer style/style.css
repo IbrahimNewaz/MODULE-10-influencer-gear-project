@@ -101,3 +101,18 @@
   width: 31rem;
   height: 3.75rem;
 }
+
+
+
+.banner-box{
+    display: flex;
+    justify-content: space-between;
+}
+#cam{
+    position: absolute;
+    z-index: 2;
+}
+#circle{
+    position: relative;
+    z-index: 1;
+}
