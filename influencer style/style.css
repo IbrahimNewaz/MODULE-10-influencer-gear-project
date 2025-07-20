@@ -1,13 +1,13 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
 /* 🟩Project Shared Styles🟩 */
 
 /* ⭕Fonts - Works Sans⭕ */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .poppins-regular {
   font-family: "Poppins", sans-serif;
@@ -17,45 +17,87 @@
 
 /* 🆑Project Color Styles🆑 */
 /* Color - 3ABlack */
-.black-1{
-    color: #3A3A3A;
+.black-1 {
+  color: #3a3a3a;
 }
 
+/* 🟧Button - 1🟧 */
+.button-1 {
+  width: 12.3rem;
+  height: 2.75rem;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #e02c6d;
+  border: none;
+  border-radius: 2.56rem;
+  margin: 24px 10px;
+  transition: background-color 0.2s, width 0.2s linear, height 0.2s linear;
+}
+.button-1:hover {
+  background-color: #cc0e54;
+  border: 2px solid red;
+  border-radius: 2.56rem;
+  cursor: pointer;
+  width: 12.8rem;
+  height: 3rem;
+  box-shadow: #f86198 2px 3px 2px;
+}
 
 /* Nav-Bar Styles */
-.nav-titel{
-    font-size: 1.5rem;
-    font-weight: bold;
+.nav-titel {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-.nav-link ul{
-    list-style: none;
+.nav-link ul {
+  list-style: none;
 }
-.nav-link a{
-    text-decoration: none;
-}
-
-.nav-bar{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 120px;
-    padding-right: 120px;
-    margin-top: 85px;
+.nav-link a {
+  text-decoration: none;
 }
 
-.nav-link ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 36px;
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 7.5rem;
+  padding-right: 7.5rem;
+  margin-top: 5.3rem;
 }
 
-.nav-titel h3{
-    font-size: 1.5rem;
-    font-weight: bold;
+.nav-link ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 36px;
 }
 
-.list a{
-    font-size: 1rem;
-    font-weight: 500;
+.nav-titel h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.list a {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* 🟩Banner part styles🟩 */
+.banner-container {
+  padding-left: 7.5rem;
+}
+.banner-titel {
+  font-size: 2.25rem;
+  font-weight: bold;
+  width: 36rem;
+  height: 8.3rem;
+
+  margin-top: 9.25rem;
+}
+
+.banner-description {
+  font-size: 1rem;
+  font-weight: 500;
+  width: 31rem;
+  height: 3.75rem;
 }
