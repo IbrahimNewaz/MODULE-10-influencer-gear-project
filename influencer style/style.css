@@ -108,11 +108,17 @@
     display: flex;
     justify-content: space-between;
 }
+.banner-photcard{
+  margin-top: 50px;
+  margin-right: 132px;
+}
 #cam{
+
     position: absolute;
     z-index: 2;
 }
 #circle{
+
     position: relative;
-    z-index: 1;
+    top: -30px;
 }
