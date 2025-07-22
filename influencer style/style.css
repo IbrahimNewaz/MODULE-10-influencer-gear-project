@@ -3,6 +3,7 @@
   margin: 0px;
 }
 
+
 /* 🟩Project Shared Styles🟩 */
 
 /* ⭕Fonts - Works Sans⭕ */
@@ -102,23 +103,50 @@
   height: 3.75rem;
 }
 
-
-
-.banner-box{
-    display: flex;
-    justify-content: space-between;
+.hidden {
+  display: none;
 }
-.banner-photcard{
+
+.banner-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+.banner-photcard {
   margin-top: 50px;
   margin-right: 132px;
 }
-#cam{
-
-    position: absolute;
-    z-index: 2;
+#cam {
+  position: absolute;
+  z-index: 2;
 }
-#circle{
+#circle {
+  position: relative;
+  top: -30px;
+}
 
-    position: relative;
-    top: -30px;
+/* Responsive Part  */
+/* 🚩- Small Device Responsiv Coding */
+@media screen and (max-width: 576px) 
+{
+
+  .nav-bar {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+    gap: 1rem;
+   
+  }
+  .nav-titel {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+.nav-link ul{
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 0.1rem;
+  }
+  
 }
